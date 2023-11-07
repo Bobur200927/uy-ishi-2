@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.contaner{
+    display: flex;
+    width: 1100px;
+    height: 3065px;
+    margin: auto;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+/* Bosh */
+
+.head{
+    display: flex;
+    width: 1163px;
+    height: 60px;
+    flex-direction: row;
+    gap: 250px;
+}
+
+.head1{
+    display: flex;
+    width: 363px;
+    height: 60px;
+}
+
+.head2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+/* Tana 1 */
+
+.head3{
+    display: flex;
+    width: 1056px;
+    height: 520px;
+    flex-direction: row;
+}
+
+.head4{
+    display: flex;
+    width: 360px;
+    height: 520px;
+    flex-direction: row;
+}
+
+.head4 img{
+    border: 8px solid #A383E9;
+    border-radius: 180px;
+    width: 300px;
+    height: 400px;
+    
+}
+
+.head5{
+    display: flex;
+    width: 552px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tana 2 */
+
+.head6{
+    display: flex;
+    width: 985px;
+    height: 263px;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.head7{
+    display: flex;
+    width: 178px;
+    height: 240px;
+}
+
+.head8{
+    display: flex;
+    width: 484px;
+    height: 255px;
+}
+
+/* Head 3 */
+
+.head9{
+    display: flex;
+    width: 1000px;
+    height: 451px;
+    flex-direction: column;
+}
+.head10{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    border-bottom: 3px solid rgb(104, 21, 176);
+}
+
+.head11 p{
+    border: solid rgb(122, 40, 194);
+    background-color:rgb(122, 40, 194) ;
+    border-radius: 10px;
+    width: 50px;
+} 
+
+.head12{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Foot */
+
+.head13{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    background-color: rgb(122, 40, 194);
+    color: #fff;
+    padding: 50px;
+}
+
+/* Foot 2 */
+
+.foot{
+    display: flex;
+    width: 1000px;
+    height: 350px;
+    gap: 100px;
+}
+
+.foot1 input{
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgb(122, 40, 194);
+    border-radius: 10px;
+}
+
+.foot1 button{
+    width: 180px;
+    padding: 10px;
+    background-color:  rgb(122, 40, 194);
+    border: none;
+    border-radius: 10px;
+}
+
+.foot2{
+    padding: 20px;
+    display: flex;
+    background-color: rgb(122, 40, 194);
+    color: #fff;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.foot3{
+    display: flex;
+    flex-direction: column;
+}
